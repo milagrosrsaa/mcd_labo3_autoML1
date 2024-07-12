@@ -13,6 +13,24 @@ Sobre la estructura del repositorio:
 - Datasets: data cruda y preprocesada (output de punto 1), inputs para los modelos
 - Outputs: salidas cargadas a Kaggle
 
+Resumen de principales Experimentos:
+
+|Exp	|Descripcción	|Error Val	|Kaggle |
+|---|---|---|------|
+|1	|Modelo básico (no incluye data de productos ni relacionada)	|0.1760	|0.249|
+|2	|Modelo básico - 3 periodos val	|0.1819	|0.249|
+|3	|Modelo básico - 3 periodos  val - Optimización hiperparametros	|0.1733	|0.277|
+|4	|Modelo con data de productos	|0.1779	|0.263|
+|5	|Modelo completo - 3 periodos val	|0.1754	|0.27|
+|6	|Modelo completo (nuevos features relacionados) - 3 periodos val	|0.05	|0.321|
+|7	|Modelo básico - Nivel producto-cluster cliente	|0.2126	|0.26|
+|8	|Modelo básico - Data estandarizada	|0.51	|-|
+|9	|Modelo básico - Uso modelos pre-entrenados de Chronos	|-	|0.29|
+|10	|Modelo básico - 7 clusters de series	|<20 salvo 1 cluster	|0.29|
+|11	|Modelo básico - Predicción por cat2	|	|0.263|
+|12	|Modelo básico - Clustering completo de productos	|	|0.268|
+
+
 Integrantes del equipo AutoML1:
 - Garcia Matias
 - Martignoni Franco
