@@ -17,7 +17,7 @@ Resumen de principales Experimentos:
 
 |Exp	|Descripcción	|Error Val	|Kaggle |
 |---|---|---|------|
-|1	|[Modelo básico (no incluye data de productos ni relacionada)](https://github.com/milagrosrsaa/mcd_labo3_autoML1/blob/main/4.%20AutoGluon/Exp1%20Modelo%20b%C3%A1sico.ipynb)	|0.1760	|0.249|
+|1	|[Modelo básico (no incluye data de productos ni relacionada)](https://github.com/milagrosrsaa/mcd_labo3_autoML1/blob/main/4.%20AutoGluon/Exp1%20Modelo%20b%C3%A1sico.ipynb)	|0.1760	|0.245|
 |2	|[Modelo básico - 3 periodos val](https://github.com/milagrosrsaa/mcd_labo3_autoML1/blob/38bc157e75a84e3929e08a5d49b5d1a93b4f9380/4.%20AutoGluon/Exp2%20Modelo%20b%C3%A1sico%20+%20Ventana%20validaci%C3%B3n.ipynb)	|0.1819	|0.249|
 |3	|[Modelo básico - 3 periodos  val - Optimización hiperparametros](https://github.com/milagrosrsaa/mcd_labo3_autoML1/blob/38bc157e75a84e3929e08a5d49b5d1a93b4f9380/4.%20AutoGluon/Exp3%20Modelo%20b%C3%A1sico%20+%20Optimizaci%C3%B3n%20hiperparametros.ipynb)	|0.1733	|0.277|
 |4	|[Modelo con data de productos](https://github.com/milagrosrsaa/mcd_labo3_autoML1/blob/38bc157e75a84e3929e08a5d49b5d1a93b4f9380/4.%20AutoGluon/Exp4%20Modelo%20con%20data%20de%20productos.ipynb)	|0.1779	|0.263|
