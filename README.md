@@ -13,7 +13,7 @@ Sobre la estructura del repositorio:
 - Datasets: data cruda y preprocesada (output de punto 1), inputs para los modelos
 - Outputs: salidas cargadas a Kaggle
 
-Resumen de principales Experimentos:
+Resumen de principales Experimentos basados en Autogluon:
 
 
 |Exp|	Descripcción	|Kaggle |
