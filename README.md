@@ -15,18 +15,15 @@ Sobre la estructura del repositorio:
 
 Resumen de principales Experimentos:
 
-|Exp	|Descripcción	|Error Val	|Kaggle |
-|---|---|---|------|
-|1	|[Modelo básico (no incluye data de productos ni relacionada)](https://github.com/milagrosrsaa/mcd_labo3_autoML1/blob/main/4.%20AutoGluon/Exp1%20Modelo%20b%C3%A1sico.ipynb)	|0.1760	|0.245|
-
 
 |Exp|	Descripcción	|Kaggle |
 |---|---|------|
+|1	|**Mejor modelo en el public leaderboard:** [Modelo básico (no incluye data de productos ni relacionada)](https://github.com/milagrosrsaa/mcd_labo3_autoML1/blob/main/4.%20AutoGluon/Exp1%20Modelo%20b%C3%A1sico.ipynb)	|0.245|
 |2	|Modelo básico - 3 periodos val|    0.249|
 |2	|V1. Idem 2 pero con datos desde 2018|	0.261|
 |2	|V3. Idem 2 pero customizando función de error|	0.251|
 |2	|V4. Idem 2 acotando outliers inferiores y superiores|	0.249|
-|2	|V5. Idem 2 acotando outliers superiores 0.95|	0.247|
+|2	|**Modelo elegido por el equipo:** [V5. Idem 2 acotando outliers superiores 0.95](https://github.com/milagrosrsaa/mcd_labo3_autoML1/blob/38bc157e75a84e3929e08a5d49b5d1a93b4f9380/4.%20AutoGluon/Exp2_v5%20Modelo%20b%C3%A1sico%20+%20Ventana%20validaci%C3%B3n%20-%20Acotar%20outliers%20sup.ipynb)|	0.247|
 |2	|V5_1. Idem EXP2 V5 aumentando validación a 6 ventanas|	0.255|
 |2	|V6. Idem 2 acotando outliers superiores 0.90|	0.256|
 |3	|Modelo básico - 3 periodos  val - Optimización hiperparametros|	0.277|
